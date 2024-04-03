@@ -53,7 +53,7 @@ class App extends React.Component {
 
         <Scroll>
           <ErrorBoundry>
-            <CardList robots={filteredRobots} />;
+            <CardList robots={filteredRobots} />
           </ErrorBoundry>
         </Scroll>
       </div>
